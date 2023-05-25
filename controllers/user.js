@@ -1,5 +1,4 @@
 import userModel from "../models/userModel.js";
-import cloudinary from "../utils/cloudinary.js";
 
 export const createUser = async (req, res) => {
     try {
